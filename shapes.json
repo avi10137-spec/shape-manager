@@ -1,1 +1,44 @@
-[["", {"2": {"radius": "3", "area": "28.26", "perimeter": "18.84"}}], {"2": {"radius": "4", "area": "50.24", "perimeter": "25.12"}}]
+{
+    "3": {
+        "type": "circle",
+        "radius": 4,
+        "area": "28.26",
+        "perimeter": "18.84"
+    },
+    "4": {
+        "type": "squere",
+        "side": "5",
+        "area": "25",
+        "perimeter": "20"
+    },
+    "5": {
+        "type": "squere",
+        "side": "5",
+        "area": "25",
+        "perimeter": "20"
+    },
+    "6": {
+        "type": "circle",
+        "radius": "2",
+        "area": "12.56",
+        "perimeter": "12.56"
+    },
+    "7": {
+        "type": "circle",
+        "radius": "2",
+        "area": "12.56",
+        "perimeter": "12.56"
+    },
+    "8": {
+        "type": "circle",
+        "radius": "2",
+        "area": "12.56",
+        "perimeter": "12.56"
+    },
+    "9": {
+        "type": "circle",
+        "radius": "2",
+        "area": "12.56",
+        "perimeter": "12.56"
+    }
+}

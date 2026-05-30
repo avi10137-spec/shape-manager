@@ -16,7 +16,7 @@ class Circle(Shape):
 
     def to_dict(self):
         """הפונקציה שומרת נתונים לדיקט"""
-        return {str(self.shape_id):{"radius":str(self.radius),
+        return {str(self.shape_id):{"type":self.shape_type,"radius":str(self.radius),
         "area":self.get_area(),"perimeter":self.get_perimeter()}}
 
 

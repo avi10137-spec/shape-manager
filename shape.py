@@ -1,6 +1,5 @@
 
 class Shape:
-    shape_id=0
     def __init__(self,shape_id,shape_type):
         self.shape_id=shape_id
         self.shape_type=shape_type

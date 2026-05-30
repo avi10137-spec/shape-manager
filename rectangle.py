@@ -16,7 +16,7 @@ class Rectangle(Shape):
         return str((self.length*2)+(self.width*2))
     def to_dict(self):
         """הפונקציה שומרת נתונים לדיקט"""
-        return {str(self.shape_id):{"length":str(self.length)
+        return {str(self.shape_id):{"type":self.shape_type,"length":str(self.length)
             ,"width":str(self.width),"area":self.get_area(),
              "perimeter":self.get_perimeter()}}
 

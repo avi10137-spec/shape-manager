@@ -17,7 +17,7 @@ class Squere(Shape):
         return str(self.side*4)
     def to_dict(self):
         """ הפונקציה שומרת נתונים לדיקט"""
-        return{str(self.shape_id):{"side":str(self.side),
+        return{str(self.shape_id):{"type":self.shape_type,"side":str(self.side),
             "area":self.get_area(),"perimeter":self.get_perimeter()}}
 
 if __name__=="__main__":
